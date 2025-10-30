@@ -1,1 +1,289 @@
 
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Perfil Pessoal - José Duarte Paschoal</title>
+    <style>* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 50px 20px;
+    min-height: 100vh;
+}
+
+.perfil-card {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
+    width: 100%;
+    max-width: 380px;
+    text-align: center;
+    padding: 30px;
+    border-top: 5px solid #0077b6;
+}
+
+.perfil-header {
+    margin-bottom: 25px;
+}
+
+.foto-perfil {
+    width: 120px;
+    height: 120px;
+    background-color: #e6e6e6;
+    border-radius: 50%;
+    margin: 0 auto 15px auto;
+    border: 3px solid #0077b6;
+    overflow: hidden;
+}
+
+.foto-perfil img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.perfil-card h1 {
+    color: #333;
+    font-size: 1.7em;
+    margin-bottom: 3px;
+}
+
+.titulo-area {
+    color: #555;
+    font-size: 1em;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+
+.matricula {
+    color: #0077b6;
+    font-weight: 600;
+    font-size: 0.9em;
+    margin-top: 5px;
+}
+
+.sobre-mim, .habilidades {
+    text-align: left;
+    margin-bottom: 20px;
+    padding: 15px 0;
+    border-top: 1px dashed #ccc;
+}
+
+.sobre-mim h2, .habilidades h2 {
+    color: #333;
+    font-size: 1.2em;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+}
+
+.sobre-mim p {
+    line-height: 1.5;
+    color: #444;
+    font-size: 0.95em;
+}
+
+.lista-habilidades {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 10px;
+}
+
+.skill-tag {
+    background-color: #0077b6;
+    color: #ffffff;
+    padding: 4px 10px;
+    border-radius: 15px;
+    font-size: 0.85em;
+    font-weight: normal;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.perfil-links {
+    margin-top: 25px;
+    padding-top: 15px;
+    border-top: 1px dashed #ccc;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.perfil-links a {
+    color: #0077b6;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.2s;
+}
+
+.perfil-links a:hover {
+    color: #004d80;
+    text-decoration: underline;
+}</style>
+</head>
+<body>
+    <div class="perfil-card">
+        <header class="perfil-header">
+            <div class="foto-perfil"><img src="foto.jpeg" alt="Minha foto de perfil">
+            </div>
+            <h1>José Duarte Paschoal</h1>
+            <p class="titulo-area">Análise e Desenvolvimento de Sistemas</p>
+            <p class="matricula">202502519648</p>
+        </header>
+        <section class="sobre-mim">
+            <h2></h2>
+            <p>
+                Olá! Meu nome é José e sou apaixonado por tecnologia, programação e desenvolvimento web. Estou cursando ADS na Estácio, aprendendo HTML, CSS, JavaScript e muitas outras coisas. Gosto de programar, editar, personalizar e criar páginas</p>
+        </section>
+        <section class="habilidades">
+            <h2></h2>
+            <div class="lista-habilidades">
+                <span class="skill-tag">HTML</span>
+                <span class="skill-tag">CSS</span>
+                <span class="skill-tag">JavaScript</span>
+                <span class="skill-tag">React</span>
+            </div>
+        </section>
+        <footer class="perfil-links">
+            <a href="https://www.linkedin.com/in/joseduartepaschoal" target="_blank">LinkedIn</a>
+            <span>|</span>
+            <a href="https://github.com/JoseDuartePaschoal" target="_blank">GitHub</a>
+            <span>|</span>
+            <a href="https://x.com/jd_paschoal" target="_blank">Twitter</a>
+        </footer>
+    </div>
+</body>
+</html>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 50px 20px;
+    min-height: 100vh;
+}
+
+.perfil-card {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
+    width: 100%;
+    max-width: 380px;
+    text-align: center;
+    padding: 30px;
+    border-top: 5px solid #0077b6;
+}
+
+.perfil-header {
+    margin-bottom: 25px;
+}
+
+.foto-perfil {
+    width: 120px;
+    height: 120px;
+    background-color: #e6e6e6;
+    border-radius: 50%;
+    margin: 0 auto 15px auto;
+    border: 3px solid #0077b6;
+    overflow: hidden;
+}
+
+.foto-perfil img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.perfil-card h1 {
+    color: #333;
+    font-size: 1.7em;
+    margin-bottom: 3px;
+}
+
+.titulo-area {
+    color: #555;
+    font-size: 1em;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+
+.matricula {
+    color: #0077b6;
+    font-weight: 600;
+    font-size: 0.9em;
+    margin-top: 5px;
+}
+
+.sobre-mim, .habilidades {
+    text-align: left;
+    margin-bottom: 20px;
+    padding: 15px 0;
+    border-top: 1px dashed #ccc;
+}
+
+.sobre-mim h2, .habilidades h2 {
+    color: #333;
+    font-size: 1.2em;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+}
+
+.sobre-mim p {
+    line-height: 1.5;
+    color: #444;
+    font-size: 0.95em;
+}
+
+.lista-habilidades {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 10px;
+}
+
+.skill-tag {
+    background-color: #0077b6;
+    color: #ffffff;
+    padding: 4px 10px;
+    border-radius: 15px;
+    font-size: 0.85em;
+    font-weight: normal;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.perfil-links {
+    margin-top: 25px;
+    padding-top: 15px;
+    border-top: 1px dashed #ccc;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.perfil-links a {
+    color: #0077b6;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.2s;
+}
+
+.perfil-links a:hover {
+    color: #004d80;
+    text-decoration: underline;
+}
