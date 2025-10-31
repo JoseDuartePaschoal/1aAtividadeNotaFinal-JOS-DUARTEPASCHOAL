@@ -1,144 +1,89 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Meu Perfil Pessoal - José Duarte Paschoal</title>
-  <style>
+<meta charset="UTF-8">
+<title>Perfil Pessoal</title>
+<style>
     body {
-      font-family: Arial, sans-serif;
-      background-color: #ddd;
-      margin: 0;
-      padding: 20px;
+        font-family: Arial;
+        margin: 40px;
+        text-align: center;
     }
 
-    .perfil-card {
-      background: #fff;
-      width: 350px;
-      margin: 40px auto;
-      border: 1px solid #999;
-      border-radius: 6px;
-      padding: 20px;
+    .perfil {
+        background-color: white;
+        width: 300px;
+        margin: 20px auto;
+        padding: 20px;
+        border: 1px solid #999;
     }
 
-    .foto-perfil {
-      width: 100px;
-      height: 100px;
-      margin: 0 auto;
-      border-radius: 50%;
-      border: 2px solid #555;
-      overflow: hidden;
-    }
-
-    .foto-perfil img {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
+    img {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
     }
 
     h1 {
-      font-size: 20px;
-      text-align: center;
-      margin-top: 10px;
-      color: #222;
+        font-size: 20px;
+        margin-top: 10px;
     }
 
-    .titulo-area {
-      text-align: center;
-      color: #444;
-      font-size: 14px;
-      margin-top: 4px;
+    p {
+        font-size: 14px;
+        margin: 8px 0;
+        text-align: left;
     }
 
-    .matricula {
-      text-align: center;
-      font-size: 13px;
-      color: #666;
-      margin-bottom: 15px;
+    .habilidades {
+        text-align: left;
+        margin-top: 15px;
     }
 
-    .sobre-mim, .habilidades {
-      margin-top: 15px;
-    }
-
-    .sobre-mim h2, .habilidades h2 {
-      font-size: 16px;
-      color: #222;
-      border-bottom: 1px solid #ccc;
-      padding-bottom: 3px;
-      margin-bottom: 8px;
-    }
-
-    .sobre-mim p {
-      font-size: 14px;
-      line-height: 1.4;
-      color: #333;
-      text-align: justify;
-    }
-
-    .lista-habilidades {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 5px;
-      margin-top: 8px;
-    }
-
-    .skill-tag {
-      background-color: #ccc;
-      color: #000;
-      padding: 3px 8px;
-      border-radius: 10px;
-      font-size: 13px;
+    .habilidades span {
+        display: inline-block;
+        background-color: #ccc;
+        padding: 3px 8px;
+        border-radius: 8px;
+        margin: 2px;
+        font-size: 13px;
     }
 
     .perfil-links {
-      text-align: center;
-      margin-top: 20px;
-      border-top: 1px solid #ccc;
-      padding-top: 10px;
+        margin-top: 15px;
+        font-size: 14px;
     }
 
     .perfil-links a {
-      color: #003366;
-      text-decoration: none;
-      margin: 0 5px;
-      font-size: 14px;
+        color: blue;
+        text-decoration: none;
+        margin: 0 5px;
     }
-
-    .perfil-links a:hover {
-      text-decoration: underline;
-    }
-  </style>
+</style>
 </head>
 <body>
-  <div class="perfil-card">
-    <div class="foto-perfil">
-      <img src="foto.jpeg" alt="Minha foto de perfil">
-    </div>
+
+<div class="perfil">
+    <img src="foto.jpeg" alt="Minha foto">
     <h1>José Duarte Paschoal</h1>
-    <p class="titulo-area">Análise e Desenvolvimento de Sistemas</p>
-    <p class="matricula">202502519648</p>
+    <p><strong>Curso:</strong> Análise e Desenvolvimento de Sistemas</p>
+    <p><strong>Matrícula:</strong> 202502519648</p>
+    <p><strong>Objetivo:</strong> Meu nome é José e sou apaixonado por tecnologia, programação e desenvolvimento web. Estou cursando ADS na Estácio, aprendendo HTML, CSS, JavaScript e muitas outras coisas. Gosto de programar, editar, personalizar e criar páginas.</p>
 
-    <section class="sobre-mim">
-      <h2>Sobre Mim</h2>
-      <p>Olá! Meu nome é José e sou apaixonado por tecnologia, programação e desenvolvimento web. Estou cursando ADS na Estácio, aprendendo HTML, CSS, JavaScript e muitas outras coisas.</p>
-    </section>
-
-    <section class="habilidades">
-      <h2>Habilidades</h2>
-      <div class="lista-habilidades">
-        <span class="skill-tag">HTML</span>
-        <span class="skill-tag">CSS</span>
-        <span class="skill-tag">JavaScript</span>
-        <span class="skill-tag">React</span>
-      </div>
-    </section>
+    <div class="habilidades">
+        <strong>Habilidades:</strong><br>
+        <span>HTML</span>
+        <span>CSS</span>
+        <span>JavaScript</span>
+        <span>React</span>
+    </div>
 
     <div class="perfil-links">
-      <a href="https://www.linkedin.com/in/joseduartepaschoal" target="_blank">LinkedIn</a> |
-      <a href="https://github.com/JoseDuartePaschoal" target="_blank">GitHub</a> |
-      <a href="https://x.com/jd_paschoal" target="_blank">Twitter</a>
+        <a href="https://www.linkedin.com/in/joseduartepaschoal" target="_blank">LinkedIn</a> |
+        <a href="https://github.com/JoseDuartePaschoal" target="_blank">GitHub</a> |
+        <a href="https://x.com/jd_paschoal" target="_blank">Twitter</a>
     </div>
-  </div>
+</div>
+
 </body>
 </html>
