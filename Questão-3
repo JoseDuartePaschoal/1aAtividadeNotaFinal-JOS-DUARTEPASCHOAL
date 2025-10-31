@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<title>Mudar Cor de Fundo</title>
+<style>
+    body {
+        background-color: lightgray;
+        font-family: Arial;
+        margin: 40px;
+        text-align: center;
+    }
+
+    button {
+        padding: 10px 15px;
+        cursor: pointer;
+        margin-top: 20px;
+    }
+</style>
+</head>
+<body>
+
+<h2>Mudar Cor de Fundo</h2>
+<button onclick="mudarCor()">Mudar Cor</button>
+
+<script>
+    function mudarCor(){
+        const cores = ['red', 'blue', 'green', 'orange', 'purple', 'yellow', 'pink'];
+        let indice = Math.floor(Math.random() * cores.length);
+        document.body.style.backgroundColor = cores[indice];
+    }
+</script>
+
+</body>
+</html>
