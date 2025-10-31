@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<title>Calculadora de Soma </title>
+<style>
+    body {
+        font-family: Arial;
+        background-color: #f0f0f0;
+        margin: 40px;
+    }
+
+    h2 {
+        text-align: center;
+    }
+
+    .caixa {
+        background: white;
+        width: 260px;
+        margin: auto;
+        padding: 20px;
+        border: 1px solid #ccc;
+    }
+
+    input {
+        width: 90%;
+        padding: 6px;
+        margin: 5px 0;
+    }
+
+    button {
+        margin-top: 10px;
+        padding: 6px 10px;
+        cursor: pointer;
+    }
+
+    p {
+        font-weight: bold;
+        margin-top: 15px;
+    }
+</style>
+</head>
+<body>
+
+    <h2>Calculadora de Soma</h2>
+
+    <div class="caixa">
+        <label>Primeiro número:</label><br>
+        <input type="number" id="n1"><br>
+
+        <label>Segundo número:</label><br>
+        <input type="number" id="n2"><br>
+
+        <button onclick="somar()">Somar</button>
+
+        <p id="resultado"></p>
+    </div>
+
+<script>
+    function somar(){
+        let num1 = document.getElementById("n1").value
+        let num2 = document.getElementById("n2").value
+
+        if(num1 === "" || num2 === ""){
+            document.getElementById("resultado").textContent = "Preencha os dois números!"
+            return
+        }
+
+        let soma = parseFloat(num1) + parseFloat(num2)
+        document.getElementById("resultado").textContent = "Resultado: " + soma
+    }
+</script>
+
+</body>
+</html>
